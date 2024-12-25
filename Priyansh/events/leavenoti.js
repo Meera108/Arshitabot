@@ -39,7 +39,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-(typeof data.customLeave == "undefined") ? msg = "[🖤] -> {name}\n\n  Has Been Leave From GC....\n {type}\n  [⚜️]💔\n 🖤|💔| --> {name}\n ۩۩It Was A Reason😥\n ✨✨ \n\nForget The Bad Words Always Be Happy ⚠️ Bye Bye My Freind You Are Always Remember Me <3😊💔\n\n[❤️‍🔥] 🖤🖤😥😥...Good\n {session}\n || Time --> {time}\n\n 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 --> ${log. message.data_tagetAdminID}" : msg = data.customLeave;
+(typeof data.customLeave == "undefined") ? msg = "[🖤] -> {name}\n\n  Has Been Leave From GC....\n {type}\n  [⚜️]💔\n 🖤|💔| --> {name}\n ۩۩It Was A Reason😥\n ✨✨ \n\nForget The Bad Words Always Be Happy ⚠️ Bye Bye My Freind You Are Always Remember Me <3😊💔\n\n[❤️‍🔥] 🖤🖤😥😥...Good\n {session}\n || Time --> {time}\n\n 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 --> ${log.message.data_tagetAdminID}" : msg = data.customLeave;
 	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type).replace(/\{session}/g, hours <= 10 ? "𝙈𝙤𝙧𝙣𝙞𝙣𝙜" : 
     hours > 10 && hours <= 12 ? "𝘼𝙛𝙩𝙚𝙧𝙉𝙤𝙤𝙣" :
     hours > 12 && hours <= 18 ? "𝙀𝙫𝙚𝙣𝙞𝙣𝙜" : "𝙉𝙞𝙜𝙝𝙩").replace(/\{time}/g, time);  
