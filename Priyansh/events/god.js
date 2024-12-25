@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event, Threads }) {
             break;
         }
         case "log:unsubscribe": {
-            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserName()) task = "The user kicked the bot out of the group!"
+            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group!"
             break;
         }
         default: 
