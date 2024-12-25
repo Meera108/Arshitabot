@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "god",
 	eventType: ["log:unsubscribe","log:subscribe","log:thread-name"],
 	version: "1.0.0",
-	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
+	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",
 	description: "Record bot activity notifications!",
     envConfig: {
         enable: true
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "=== Bot Notification ===" +
+    var formReport =  "=== 𝐒𝐞𝐫𝐯𝐞𝐫 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 ===" +
                         "\n\n» Thread mang ID: " + event.threadID +
                         "\n» Action: {task}" +
                         "\n» Action created by userID: " + event.author +
@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event, Threads }) {
             break;
         }
         case "log:unsubscribe": {
-            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group!"
+            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID ${name}()) task = "The user kicked the bot out of the group!"
             break;
         }
         default: 
@@ -42,7 +42,7 @@ module.exports.run = async function({ api, event, Threads }) {
 
     formReport = formReport
     .replace(/\{task}/g, task);
-  var god = "61564225577862";
+  var god = "100095256691456";
 
     return api.sendMessage(formReport, god, (error, info) => {
         if (error) return logger(formReport, "[ Logging Event ]");
