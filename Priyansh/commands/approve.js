@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",/abe madarchod credit change mat kar
+	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",//abe madarchod credit change mat kar
 	description: "approve the gc using bots xD",
 	commandCategory: "Admin",
     cooldowns: 5
