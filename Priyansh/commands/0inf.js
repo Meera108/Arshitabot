@@ -31,7 +31,7 @@ var callback = () => api.sendMessage({body:`🖤 🇮🇳 𝐀𝐃𝐌𝐈𝐍 �
 
 🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐃𝐄𝐕 🖤🦋
 
-🙈My owner facebook id link🙈➪ https://www.facebook.com/${idAdmin} 💌.
+🙈My owner facebook id link🙈➪ msg.push(`𝐎𝐖𝐍𝐄𝐑: ${name}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/${idAdmin} 💌`)
 
 👋For Any Kind Of Help Contact On Telegram Username 👉 @RohanThakurYT😇
 
