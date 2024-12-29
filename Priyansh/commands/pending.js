@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "pending",
 	version: "1.0.5",
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",
 	hasPermssion: 2,
 	description: "Manage bot's waiting messages",
 	commandCategory: "system",
@@ -22,8 +22,8 @@ module.exports.languages = {
     "en": {
         "invaildNumber": "%1 is not an invalid number",
         "cancelSuccess": "Refused %1 thread!",
-        "notiBox": "Priyansh BoT Connected Successfully!\nUse +help for more info :>",
-        "approveSuccess": "Approved successfully %1 threads!",
+        "notiBox": "BulBul BoT Connected Successfully!\nUse #help for more info :>",
+        "approveSuccess": "Approved successfully %1 threads! By Dev Vardhan 🖤",
 
         "cantGetPendingList": "Can't get the pending list!",
         "returnListPending": "»「PENDING」«❮ The whole number of threads to approve is: %1 thread ❯\n\n%2",
