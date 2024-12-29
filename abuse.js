@@ -3,7 +3,7 @@ module.exports.config = {
     name: "abuse",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "fix by Arshita Rajput",
+    credits: "fix by Dev Vardhan",//change mat karna lode
     description: "Tag constantly to curse the person you hate (note that after using this command, it is very likely that acc you will get a muzzle, if you hell, acc, and if you are black, pay acc :>)",
     commandCategory: "Administrator system",
     usages: "chuidenchet @mention",
