@@ -25,14 +25,13 @@ const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
 ["https://i.postimg.cc/fRjPVc2Y/057143467c27f14adfe2c2aa00214c85.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
-(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
+var callback = () => api.sendMessage({body:`🖤 🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 🖤
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
 🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐃𝐄𝐕 🖤🦋
 
-🙈My owner facebook id link🙈➪ https://www.facebook.com/profile.php?id=100095256691456
+🙈My owner facebook id link🙈➪ https://www.facebook.com/unique.dev.vardhan
 
 👋For Any Kind Of Help Contact On Telegram Username 👉 @RohanThakurYT😇
 
