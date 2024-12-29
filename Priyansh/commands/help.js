@@ -2,7 +2,7 @@
 	name: "help",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",
+	credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",//if changing the credit file may be ban
 	description: "Beginner's Guide",
 	commandCategory: "system",
 	usages: "[Tên module]",
