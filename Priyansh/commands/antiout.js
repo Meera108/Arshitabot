@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "antiout",
     version: "1.0.0",
-    credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",*dont change the credit motherfuckers
+    credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",//dont change the credit motherfuckers
     hasPermssion: 1,
     description: "Turn off antiout",
     usages: "antiout on/off",
