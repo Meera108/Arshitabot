@@ -17,7 +17,8 @@ module.exports.languages = {
 	"en": {
 		"returnCant": "Kisi Aur Ka Msg M Kese Unsend Karu.",
 		"missingReply": "Mere Jis Msg ko Unsend Karna Hai Usme Reply Karke Likkho."
- "UnsendSuccess": "Is Bar Kar Rahi Agli Bar Nhi Karungi Bata Rahi."
+   "UnsendSuccess": 
+"Is Bar Kar Rahi Agli Bar Nhi Karungi Bata Rahi."
 	}
 }
 
