@@ -7,7 +7,7 @@ module.exports.config = {
   name: "cardcute",
   version: "2.0.1",
   hasPermssion: 0,
-  credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",#Credit Mat Change Karna Bhai
+  credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",#//Credit Mat Change Karna Bhai
   description: "Create information cards in cute style",
   commandCategory: "info",
   usages: "",
