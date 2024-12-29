@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "bday",
 	version: "1.0.0",
 	hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",//kya karega change karke rehne de yese hi
 	description: "See admin's birthday",
   usePrefix: false,
 	commandCategory: "bday",
