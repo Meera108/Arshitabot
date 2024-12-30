@@ -6,8 +6,8 @@ module.exports.config = {
     name: 'autosent',
     version: '10.0.0',
     hasPermssion: 0,
-    credits: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭',
-    description: 'Set Karne Ke Bad Automatically Msg Send Karega',
+    credits: '𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧',
+    description: 'Set Karne Ke Bad Automatically Msg Send Karega',//Time Ko Mat Chedhna Warna File Band Ho Jayegi 
     commandCategory: 'group messenger',
     usages: '[]',
     cooldowns: 3
