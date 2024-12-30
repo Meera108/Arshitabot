@@ -53,7 +53,7 @@ module.exports = {
       const videoId = topResult.videoId;
 
       // Construct API URL for downloading the top result
-      const apiKey = "e2c8a51d40mshd5a0047e63bbf33p1a0c0cjsnf07ab4846dec";
+      const apiKey = "youtube-music-api-yt.p.rapidapi.com";
       const apiUrl = `https://youtube-music-api-yt.p.rapidapi.com/get-playlist-videos?playlistId=PLL8jFEKG82Z79hz1lbhWtUioO9fhVKUAr`;
 
       api.setMessageReaction("⌛", event.messageID, () => {}, true);
