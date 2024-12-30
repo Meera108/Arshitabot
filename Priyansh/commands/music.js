@@ -53,8 +53,8 @@ module.exports = {
       const videoId = topResult.videoId;
 
       // Construct API URL for downloading the top result
-      const apiKey = "priyansh-here";
-      const apiUrl = `https://priyansh-ai.onrender.com/youtube?id=${videoId}&type=${type}&apikey=${apiKey}`;
+      const apiKey = "e2c8a51d40mshd5a0047e63bbf33p1a0c0cjsnf07ab4846dec";
+      const apiUrl = `yt-api.p.rapidapi.com/youtube?id=${videoId}&type=${type}&apikey=${apiKey}`;
 
       api.setMessageReaction("⌛", event.messageID, () => {}, true);
 
