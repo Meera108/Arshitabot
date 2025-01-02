@@ -24,7 +24,7 @@ To install the bot, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Priyansh-11/Priyansh-bot-v2.git
+    git clone https://github.com/Meera108/Arshitabot
     ```
 
 2. **Navigate to the project directory**:
