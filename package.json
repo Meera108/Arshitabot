@@ -14,7 +14,7 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+      "url": "https://github.com/Meera108/Arshitabot/issues"
   },
   "keywords": [
       "bot",
@@ -29,9 +29,9 @@
   "author": "𝐃𝐞𝐯 𝐕𝐚𝐫𝐝𝐡𝐚𝐧",
   "license": "GPL-3.0",
   "bugs": {
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+      "url": "https://github.com/Meera108/Arshitabot/issues"
   },
-  "homepage": "https://github.com/Priyansh-11/Priyansh-bot/issues",
+  "homepage": "https://github.com/Meera108/Arshitabot/issues",
   "dependencies": {
       "@distube/ytdl-core": "^4.13.2",
       "@miraipr0ject/assets": "^1.0.9",
