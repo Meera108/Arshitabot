@@ -5,8 +5,8 @@ module.exports = {
 		name: "antichangeinfobox",
 		version: "1.8",
 		author: "Dev Vardhan",
-		countDown: 10,
-		role: 1,
+		countDown: 0,
+		role: 2,
 		shortDescription: {
 			vi: "Chống đổi thông tin box chat",
 			en: "Anti change info box"
