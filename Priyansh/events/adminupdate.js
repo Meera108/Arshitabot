@@ -34,7 +34,7 @@ module.exports.run = async function ({ event, api, Threads,Users }) {
                 }
                 else if (logMessageData.ADMIN_EVENT == "remove_admin") {
                     dataThread.adminIDs = dataThread.adminIDs.filter(item => item.id != logMessageData.TARGET_ID);
-                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« 𝗚𝗖 𝗨𝗣𝗗𝗔𝗧𝗘 ${logMessageData.TARGET_ID} ${facebook.com/event.author} 𝗙𝗜𝗥𝗘𝗗 𝗧𝗢 𝗔𝗗𝗠𝗜𝗡 𝗣𝗢𝗦𝗧 𝗦𝗢 𝗦𝗔𝗗 𝗠𝗢𝗠𝗘𝗡𝗧 🖤`, threadID, async (error, info) => {
+                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« 𝗚𝗖 𝗨𝗣𝗗𝗔𝗧𝗘 ${logMessageData.facebook.com/TARGET_ID} ${facebook.com/event.author} 𝗙𝗜𝗥𝗘𝗗 𝗧𝗢 𝗔𝗗𝗠𝗜𝗡 𝗣𝗢𝗦𝗧 𝗦𝗢 𝗦𝗔𝗗 𝗠𝗢𝗠𝗘𝗡𝗧 🖤`, threadID, async (error, info) => {
                         if (global.configModule[this.config.name].autoUnsend) {
                             await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));
                             return api.unsendMessage(info.messageID);
