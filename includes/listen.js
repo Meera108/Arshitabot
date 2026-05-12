@@ -26,7 +26,7 @@ module.exports = function ({ api, models }) {
                     const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
                     let storage = [], count = 1;
                     for (const item of checktt.day) {
-                        const userName = await Users.getNameUser(item.id) || 'Priyansh Rajput';
+                        const userName = await Users.getNameUser(item.id) || 'Arshita Rajput';
                         const itemToPush = item;
                         itemToPush.name = userName;
                         storage.push(itemToPush);
@@ -58,7 +58,7 @@ module.exports = function ({ api, models }) {
 
             await new Promise(async resolve => {
                 if (day_now == 1) {
-                    console.log('Priyansh Rajput');
+                    console.log('Arshita Rajput');
                     for (const checkttFile of checkttData) {
                         const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
                         let storage = [], count = 1;
@@ -156,7 +156,7 @@ module.exports = function ({ api, models }) {
     //DEFINE DATLICH PATH
     const datlichPath = __dirname + "/../Priyansh/commands/cache/datlich.json";
 
-    //FUNCTION WORKS AS IT'S NAME, CRE: PRIYANSHU
+    //FUNCTION WORKS AS IT'S NAME, CRE: ARSHITA
     const monthToMSObj = {
         1: 31 * 24 * 60 * 60 * 1000,
         2: 28 * 24 * 60 * 60 * 1000,
